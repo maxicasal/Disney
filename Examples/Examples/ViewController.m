@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)myTest:(id)sender
+{
+    NSLog(@"testing...");
+}
+
 @end

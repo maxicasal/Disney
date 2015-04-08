@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		034D0BFB1AD559AF003C6851 /* AutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 034D0BFA1AD559AF003C6851 /* AutoLayoutViewController.m */; };
 		E2D50AA51ACADC2A00D7E2AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D50AA41ACADC2A00D7E2AA /* main.m */; };
 		E2D50AA81ACADC2A00D7E2AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D50AA71ACADC2A00D7E2AA /* AppDelegate.m */; };
 		E2D50AAB1ACADC2A00D7E2AA /* Examples.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2D50AA91ACADC2A00D7E2AA /* Examples.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		034D0BF91AD559AF003C6851 /* AutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoLayoutViewController.h; path = ViewControllers/AutoLayoutViewController.h; sourceTree = "<group>"; };
+		034D0BFA1AD559AF003C6851 /* AutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoLayoutViewController.m; path = ViewControllers/AutoLayoutViewController.m; sourceTree = "<group>"; };
 		E2D50A9F1ACADC2A00D7E2AA /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D50AA31ACADC2A00D7E2AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D50AA41ACADC2A00D7E2AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +65,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034D0BF81AD55985003C6851 /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				034D0BF91AD559AF003C6851 /* AutoLayoutViewController.h */,
+				034D0BFA1AD559AF003C6851 /* AutoLayoutViewController.m */,
+			);
+			name = AutoLayout;
+			sourceTree = "<group>";
+		};
+		034D0BFC1AD559B3003C6851 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				034D0BF81AD55985003C6851 /* AutoLayout */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		E2D50A961ACADC2A00D7E2AA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +103,7 @@
 		E2D50AA11ACADC2A00D7E2AA /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				034D0BFC1AD559B3003C6851 /* ViewControllers */,
 				E2D50AA61ACADC2A00D7E2AA /* AppDelegate.h */,
 				E2D50AA71ACADC2A00D7E2AA /* AppDelegate.m */,
 				E2D50AAC1ACADC2A00D7E2AA /* ViewController.h */,
@@ -222,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034D0BFB1AD559AF003C6851 /* AutoLayoutViewController.m in Sources */,
 				E2D50AA81ACADC2A00D7E2AA /* AppDelegate.m in Sources */,
 				E2D50AAB1ACADC2A00D7E2AA /* Examples.xcdatamodeld in Sources */,
 				E2D50AAE1ACADC2A00D7E2AA /* ViewController.m in Sources */,
@@ -418,6 +440,7 @@
 				E2D50AC71ACADC2A00D7E2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2D50AC81ACADC2A00D7E2AA /* Build configuration list for PBXNativeTarget "ExamplesTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				E2D50ACA1ACADC2A00D7E2AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
